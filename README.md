@@ -13,3 +13,23 @@
 ## JSON
 
 8.  data z formuláře ulož také do JSON recepty.json ve složce data
+
+# Hodnocení:
+
+✅
+
+🚩css patří do static
+
+🚩chybí uzavření formuláře
+
+🚩ve formuláři chybí name u inputů a proto flask informace nepřijímá, flask nevrací data na stránku
+
+🚩hláška měla být odeslána do html, ne printována do konzole - krátké slovo se řeší až poté, co program zpracuje data (nehledě na to, jestli je krátké nebo ne)
+
+❌
+
+❌
+
+🚩co to je za syntax zprava[login] - zpráva má být string, je list, do dictionary messages nejsou nikdy vepsána data
+
+## Známka: 4
